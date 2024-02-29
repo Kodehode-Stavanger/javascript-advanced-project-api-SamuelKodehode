@@ -1,17 +1,28 @@
-# API Assignment
+# Crypto Portfolio Manager
 
-We have learned about asynchronous Javascript, and specifically about using promises and async/await to handle asynchronous Javascript. In this assignment you will practice these skills by making a website that uses an API that you can fetch data from. You have the freedom to use any free API you want (click [here](https://github.com/public-apis/public-apis?tab=readme-ov-file) for a comprehensive list).
+Welcome to the Crypto Portfolio Manager! 🚀 Manage your crypto investments in a fun and interactive way. Buy, sell, and track the performance of your favorite cryptocurrencies.
 
-But I will require some complexity, such as:
+## About the Code:
 
-- An API that has several different endpoints that you use in your project
-- An API with an endpoint that accepts parameters in the url
-- API data that you have to loop over to generate content
+This Crypto Portfolio Manager is a web application built using HTML, CSS, and JavaScript. The project fetches real-time cryptocurrency data from the CoinCap API to provide live price updates and historical charts. The code is organized into different modules for clarity and maintainability:
 
-Your project should satisfy at least 2 of those. A favorite among earlier students at Kodehode has been to use [this API](https://pokeapi.co/) to make a website.
+- **User Module:** Manages user data such as name, available funds, and cryptocurrency holdings. User information is stored in local storage for a persistent experience across sessions.
 
-This assignment is a perfect opportunity to create something that will look good on your portfolio, so I highly recommend that you style your project up a bit to look nice.
+- **Data Fetching Module:** Utilizes the Fetch API to retrieve cryptocurrency data from the CoinCap API. The data is then processed and rendered in the user interface.
 
-Most public APIs have nice documentation that show you how to use it, the various endpoints and what parameters they accept. Use the documentation 🤓
+- **Chart Rendering Module:** Dynamically creates and updates interactive charts based on the selected cryptocurrency and time frame. The charts are drawn on an HTML canvas element, providing a visual representation of price trends.
 
-PS: Do **not** use any API that requires you to use a key. (We haven't covered how to hide your API keys safely yet.)
+- **User Interface Module:** Handles the rendering of the user interface components, including the cryptocurrency list, individual coin details, and the user's portfolio overview.
+
+- **Sorting and Filtering Module:** Implements sorting options for the cryptocurrency list based on price, 24-hour change, and other criteria. Users can easily customize their view to focus on specific metrics.
+
+- **User Interaction Module:** Manages user interactions such as buying and selling cryptocurrencies. The application dynamically updates the user's portfolio and available funds.
+
+## How to Use:
+1. **Clone the repository to your local machine.
+2. Open the `index.html` file in your preferred web browser.
+3. Explore the exciting world of cryptocurrencies and manage your portfolio with ease!
+
+Feel free to customize and enhance the code as needed. This project serves as a starting point for anyone interested in building a crypto portfolio manager. Happy coding! 🚀💻
+
+*Disclaimer: This project is for educational purposes and does not provide financial advice.*
